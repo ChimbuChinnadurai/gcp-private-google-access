@@ -4,6 +4,8 @@ Terraform module to configure private google access DNS zones
 
 Ensure Private Google Access is enabled on the subnet level
 
+<img width="796" alt="Screenshot 2023-01-04 at 06 24 49" src="https://user-images.githubusercontent.com/46873109/210511854-28fadee5-e76e-40a8-9b35-a5f64b109995.png">
+
 This modules creates DNS zone for the domain `private.googleapis.com.` which does not support VPC service control. If you are using VPC service controls then please use `restricted.googleapis.com`. Refer to https://cloud.google.com/vpc/docs/configure-private-google-access#config
 
 <!-- BEGIN_TF_DOCS -->
